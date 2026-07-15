@@ -1,0 +1,231 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>MZFM-Firstborn</title>
+<meta name="generator" content="WYSIWYG Web Builder 18 - https://www.wysiwygwebbuilder.com">
+<link href="MZFM_Website_Design_5.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+<script src="jquery-3.6.0.min.js"></script>
+<script src="wb.parallax.min.js"></script>
+<script src="jquery.ui.effect.min.js"></script>
+<script src="wwb18.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $('#wb_Whose_Report_Image').addClass('visibility-hidden');
+   $('#wb_Text5').addClass('visibility-hidden');
+   $('#wb_Dad_Abt_Img').addClass('visibility-hidden');
+   $('#About_us_Text').addClass('visibility-hidden');
+   $('#wb_MZFM_Image').addClass('visibility-hidden');
+   $('#wb_Text6').addClass('visibility-hidden');
+   $('#wb_Shape4').addClass('visibility-hidden');
+   $('#Green_Layer').parallax();
+   $('#Layer8').parallax();
+   $('#Layer3').parallax();
+   $("a[href*='#Bookmark1']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_Bookmark1').offset().top }, 600, 'easeInSine');
+   });
+   function onScrollBookmark1()
+   {
+      var $obj = $("#wb_Bookmark1");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_Whose_Report_Image', 'animate-fade-in-left', 500, 500);
+         AnimateCss('wb_Text5', 'animate-fade-in-right', 400, 500);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_Whose_Report_Image', 'animate-fade-out', 500, 500);
+         AnimateCss('wb_Text5', 'animate-fade-out', 400, 500);
+      }
+   }
+   if (!$('#wb_Bookmark1').inViewPort(true))
+   {
+      $('#wb_Bookmark1').addClass("in-viewport");
+   }
+   onScrollBookmark1();
+   $(window).scroll(function(event)
+   {
+      onScrollBookmark1();
+   });
+   $("a[href*='#Bookmark2']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_Bookmark2').offset().top }, 600, 'linear');
+   });
+   function onScrollBookmark2()
+   {
+      var $obj = $("#wb_Bookmark2");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_Dad_Abt_Img', 'animate-fade-in-left', 300, 500);
+         AnimateCss('About_us_Text', 'animate-fade-in-left', 400, 500);
+         AnimateCss('wb_MZFM_Image', 'animate-fade-in-right', 450, 500);
+         AnimateCss('wb_Text6', 'animate-fade-in-up', 500, 500);
+      }
+   }
+   onScrollBookmark2();
+   $(window).scroll(function(event)
+   {
+      onScrollBookmark2();
+   });
+   function onScrollShape5()
+   {
+      var $obj = $("#wb_Shape5");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_Shape4', 'animate-fade-in-up', 300, 500);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_Shape4', 'animate-fade-out', 300, 500);
+      }
+   }
+   if (!$('#wb_Shape5').inViewPort(true))
+   {
+      $('#wb_Shape5').addClass("in-viewport");
+   }
+   onScrollShape5();
+   $(window).scroll(function(event)
+   {
+      onScrollShape5();
+   });
+   $('#Layer5').parallax();
+});
+</script>
+</head>
+<body>
+<div id="Green_Layer" style="position:absolute;text-align:left;left:0px;top:8px;width:100.6632%;height:835px;z-index:37;">
+<div id="wb_Shape2" style="position:absolute;left:539px;top:528px;width:288px;height:82px;z-index:1;">
+<a href="./About-Us.html"><img class="hover" src="images/img0002_hover.png" alt="" width="288" height="82" style="border-width:0;width:288px;height:82px;"><span class="default"><img src="images/img0002.png" id="Shape2" alt="" width="288" height="82" style="width:288px;height:82px;"></span></a></div>
+<div id="Layer1" style="position:absolute;text-align:left;left:196px;top:35px;width:974px;height:501px;z-index:2;">
+<div id="wb_Image5" style="position:absolute;left:79px;top:21px;width:816px;height:459px;z-index:0;">
+<img src="images/Website Intro.gif" id="Image5" alt="" width="816" height="459"></div>
+</div>
+</div>
+<div id="Layer8" style="position:absolute;text-align:left;left:0px;top:757px;width:1366px;height:527px;z-index:38;">
+<div id="wb_Image7" style="position:absolute;left:1043px;top:23px;width:66px;height:62px;z-index:3;">
+<a href="https://www.facebook.com/share/182vGvgdi2/" target="_blank"><img src="images/Facebook Logo.png" id="Image7" alt="" width="66" height="62"></a></div>
+<div id="wb_Image8" style="position:absolute;left:1174px;top:28px;width:30px;height:29px;z-index:4;">
+<img src="images/Tiktok Logo.png" id="Image8" alt="" width="30" height="28"></div>
+<div id="wb_Image9" style="position:absolute;left:1205px;top:28px;width:30px;height:29px;z-index:5;">
+<img src="images/Instagram Logo.png" id="Image9" alt="" width="30" height="28"></div>
+<div id="wb_Image10" style="position:absolute;left:1236px;top:28px;width:30px;height:29px;z-index:6;">
+<img src="images/WhatsApp.png" id="Image10" alt="" width="30" height="28"></div>
+<div id="wb_Image11" style="position:absolute;left:1266px;top:28px;width:30px;height:29px;z-index:7;">
+<img src="images/Youtube Logo.png" id="Image11" alt="" width="30" height="28"></div>
+<div id="wb_Text8" style="position:absolute;left:417px;top:13px;width:532px;height:48px;z-index:8;">
+<span style="color:#006400;font-family:Arial;font-size:43px;"><strong>Come Fellowship With Us</strong></span></div>
+<div id="wb_Text9" style="position:absolute;left:426px;top:58px;width:514px;height:83px;z-index:9;">
+<span style="color:#006400;font-family:Arial;font-size:75px;"><strong>Service Times</strong></span></div>
+<div id="wb_Image13" style="position:absolute;left:770px;top:173px;width:199px;height:282px;z-index:10;">
+<a href="#" onmouseover="SetImage('Image13','images/Feet washing Service Second Picture.png');return false;" onmouseout="SetImage('Image13','images/Feet Washing Image.png');return false;"><img src="images/Feet Washing Image.png" id="Image13" alt="" width="199" height="281"></a></div>
+<div id="wb_Image12" style="position:absolute;left:562px;top:173px;width:199px;height:282px;z-index:11;">
+<a href="#" onmouseover="SetImage('Image12','images/COmmunion Service second Image.png');return false;" onmouseout="SetImage('Image12','images/Communion Service Image.png');return false;"><img src="images/Communion Service Image.png" id="Image12" alt="" width="199" height="281"></a></div>
+<div id="wb_Image6" style="position:absolute;left:354px;top:173px;width:199px;height:282px;z-index:12;">
+<a href="#" onmouseover="SetImage('Image6','images/Bible Study Second Image.png');return false;" onmouseout="SetImage('Image6','images/Bible Study Image.png');return false;"><img src="images/Bible Study Image.png" id="Image6" alt="" width="199" height="281"></a></div>
+<div id="wb_Image3" style="position:absolute;left:146px;top:173px;width:199px;height:282px;z-index:13;">
+<a href="#" onmouseover="SetImage('Image3','images/Sunday Service 2nd Image.png');return false;" onmouseout="SetImage('Image3','images/Sunday Service Image.png');return false;"><img src="images/Sunday Service Image.png" id="Image3" alt="" width="199" height="281"></a></div>
+<div id="wb_Image14" style="position:absolute;left:976px;top:173px;width:199px;height:282px;z-index:14;">
+<a href="#" onmouseover="SetImage('Image14','images/Deliverance Second Image.png');return false;" onmouseout="SetImage('Image14','images/Deliverance Service Image.png');return false;"><img src="images/Deliverance Service Image.png" id="Image14" alt="" width="199" height="281"></a></div>
+<div id="wb_Image15" style="position:absolute;left:1109px;top:18px;width:55px;height:72px;z-index:15;">
+<a href="www.youtube.com/@mountzionfoundationministe6264" target="_blank"><img src="images/Youtube Logo.png" id="Image15" alt="" width="55" height="52"></a></div>
+</div>
+<div id="Layer2" style="position:absolute;text-align:left;left:0px;top:1322px;width:1366px;height:612px;z-index:39;">
+<div id="wb_Dad_Abt_Img" style="position:absolute;left:38px;top:53px;width:389px;height:454px;z-index:17;">
+<img src="images/Daddy Replacable Image.png" id="Dad_Abt_Img" alt="" width="389" height="475"></div>
+<div id="wb_MZFM_Image" style="position:absolute;left:487px;top:26px;width:830px;height:95px;z-index:18;">
+<img src="images/MZFM Text.png" id="MZFM_Image" alt="" width="830" height="95"></div>
+<div id="wb_Text6" style="position:absolute;left:501px;top:115px;width:816px;height:264px;z-index:19;">
+<span style="color:#000000;font-family:Arial;font-size:24px;line-height:38px;"><strong>Mount Zion Foundation Ministries is a deliverance ministry founded by Apostle Paul O. Nkiruka in the year 2006. The church is located at No. 15 Oguntade Street, Off Talabi Sojomehin Street, By Femi Bus/Stop Ajuwon Ogun State. <br>Nigeria. It is also known as The Church of the First Born, and the first born is Jesus Christ.<br>Mount Zion Foundation Ministries is a deliverance ministry </strong></span></div>
+<div id="wb_Bookmark2" style="position:absolute;left:446px;top:116px;width:39px;height:40px;z-index:20;">
+<div id="Bookmark2" style="visibility:hidden;"></div>
+</div>
+</div>
+<div id="Layer3" style="position:absolute;text-align:left;left:0px;top:1934px;width:1357px;height:768px;z-index:40;">
+</div>
+<div id="Layer4" style="position:absolute;text-align:left;left:0px;top:2544px;width:1366px;height:521px;z-index:41;">
+<div id="wb_Bookmark1" style="position:absolute;left:536px;top:118px;width:49px;height:57px;z-index:21;">
+<div id="Bookmark1" style="visibility:hidden;"></div>
+</div>
+<div id="wb_Whose_Report_Image" style="position:absolute;left:30px;top:60px;width:515px;height:290px;z-index:22;">
+<img src="images/Backup_of_Healing & Deliverance Program.png" id="Whose_Report_Image" alt="" width="515" height="290"></div>
+<div id="wb_Text5" style="position:absolute;left:573px;top:50px;width:762px;height:317px;text-align:justify;z-index:23;">
+<span style="color:#000000;font-family:Arial;font-size:20px;line-height:26px;"><strong>There is going to be A 3 day Healing and deliverance programme commencing on Friday the 31st of July, to run till Sunday the 2nd of August 2026. The theme of the program is &quot;WHOSE REPORT SHALL YOU BELIEVE?&quot; The time is 7:00am on Friday and Saturday, and 8:00am on Sunday. On the last day, there will be an anointing session for VISIBLE EVIDENCE. This programme will annul every evil report we have had in the past pertaining our health, businesses, finances, marriages and other aspects of our lives. By Divine instruction, our Daddy, Apostle Paul O. Nkiruka has asked anyone who is having any health issues or challenges, and has any medical report given to him or her by doctors, to come with the reports. And God will change the negative reports to a positive one. Please, it is very important that we invite people to this wonderful programme to take part in the deliverance that God will effect in the lives of His Children.</strong></span></div>
+<div id="wb_Shape4" style="position:absolute;left:539px;top:387px;width:288px;height:82px;z-index:24;">
+<a href="./About-Us.html"><img class="hover" src="images/img0004_hover.png" alt="" width="288" height="82" style="border-width:0;width:288px;height:82px;"><span class="default"><img src="images/img0004.png" id="Shape4" alt="" width="288" height="82" style="width:288px;height:82px;"></span></a></div>
+<div id="wb_Shape5" style="position:absolute;left:550px;top:191px;width:21px;height:67px;z-index:25;">
+<img src="images/img0006.png" id="Shape5" alt="" width="21" height="67" style="width:21px;height:67px;"></div>
+</div>
+<div id="wb_Image4" style="position:absolute;left:1755px;top:1225px;width:0px;height:0px;z-index:42;">
+<img src="" id="Image4" alt=""></div>
+<div id="wb_Shape3" style="position:absolute;left:0px;top:2506px;width:1365px;height:79px;z-index:43;">
+<img src="images/img0003.png" id="Shape3" alt="" width="1365" height="79" style="width:1365px;height:79px;"></div>
+<div id="Layer5" style="position:absolute;text-align:left;left:0px;top:3057px;width:1366px;height:764px;z-index:44;">
+</div>
+<div id="Layer6" style="position:absolute;text-align:left;left:0px;top:3468px;width:1366px;height:1023px;z-index:45;">
+<div id="wb_Shape6" style="position:absolute;left:0px;top:0px;width:1366px;height:120px;z-index:26;">
+<img src="images/img0007.png" id="Shape6" alt="" width="1366" height="120" style="width:1366px;height:120px;"></div>
+<div id="wb_Text2" style="position:absolute;left:350px;top:25px;width:666px;height:52px;z-index:27;">
+<span style="color:#FFFFFF;font-family:Impact;font-size:43px;">MOUNT ZION'S 20TH YEAR ANNIVERSARY</span></div>
+<div id="wb_Shape1" style="position:absolute;left:365px;top:80px;width:636px;height:7px;z-index:28;">
+<img src="images/img0001.png" id="Shape1" alt="" width="636" height="7" style="width:636px;height:7px;"></div>
+<div id="wb_Shape7" style="position:absolute;left:40px;top:140px;width:676px;height:828px;z-index:29;">
+<img src="images/img0008.png" id="Shape7" alt="" width="676" height="828" style="width:676px;height:828px;"></div>
+<div id="wb_Image17" style="position:absolute;left:320px;top:523px;width:396px;height:445px;z-index:30;">
+<img src="images/Anniv Mum & Dad Picture.png" id="Image17" alt="" width="396" height="446"></div>
+<div id="wb_Image18" style="position:absolute;left:259px;top:201px;width:166px;height:166px;z-index:31;">
+<img src="images/20th year Anniversary.png" id="Image18" alt="" width="166" height="166"></div>
+</div>
+<div id="Layer7" style="position:absolute;text-align:left;left:0px;top:4479px;width:1366px;height:153px;z-index:46;">
+<div id="wb_Text7" style="position:absolute;left:415px;top:54px;width:537px;height:22px;z-index:32;">
+<span style="color:#FFFFFF;font-family:Arial;font-size:20px;">&#0169; Copyright MZFM FIRSTBORN 2026. All Rights Reserved.</span></div>
+</div>
+<div id="Navigation_Layer" style="position:fixed;text-align:center;left:0;top:0;right:0;height:130px;z-index:47;">
+<div id="Navigation_Layer_Container" style="width:1357px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<div id="wb_Image1" style="position:absolute;left:12px;top:43px;width:72px;height:72px;z-index:33;">
+<img src="images/MZFM Logo.png" id="Image1" alt="" width="72" height="71"></div>
+<div id="wb_Image2" style="position:absolute;left:88px;top:44px;width:337px;height:80px;z-index:34;">
+<img src="images/Logo Teexts_AS5Q.png" id="Image2" alt="" width="337" height="55"></div>
+<marquee direction="left" scrolldelay="100" scrollamount="4" behavior="scroll" loop="0" style="position:absolute;left:1px;top:12px;width:1342px;height:31px;z-index:35;" id="Marquee1"><span style="color:#32CD32;font-family:Arial;font-size:20px;"><strong>Welcome To Mount Zion Foundation Ministries, A.K.A Church Of The First Born, and the First Born Is Jesus Christ. Kindly Join Us Every Thursday, From 7am to 9:30am, For Our Weekly Service, Tagged The Hour Of Truth, Every First Tuesday Of Every Month Is Our Feet Washing Service By 6:30am, Every First Friday Of Every Month Is Our Holy Communion Service By 5pm. Remain Blessed As You Fellowship With Us.</strong></span></marquee>
+<div id="wb_CssMenu2" style="position:absolute;left:532px;top:53px;width:804px;height:56px;z-index:36;">
+<ul id="CssMenu2" role="menubar" class="nav">
+<li role="menuitem" class="nav-item firstmain"><a class="nav-link" href="./index.html" target="_self">HOME</a>
+</li>
+<li role="menuitem" class="nav-item"><a class="nav-link" href="./About-Us.html" target="_self">ABOUT&nbsp;US</a>
+</li>
+<li role="menuitem" class="nav-item"><a class="nav-link withsubmenu" href="./Events.html" target="_self">EVENTS&nbsp;+</a>
+
+<ul role="menu">
+<li role="menuitem" class="nav-item firstitem"><a class="nav-link" href="" target="_self">LIVE&nbsp;EVENTS</a>
+</li>
+<li role="menuitem" class="nav-item"><a class="nav-link" href="" target="_self">UP&nbsp;-&nbsp;COMING&nbsp;EVENTS</a>
+</li>
+<li role="menuitem" class="nav-item"><a class="nav-link" href="" target="_self">PREVIOUS&nbsp;EVENTS</a>
+</li>
+<li role="menuitem" class="nav-item lastitem"><a class="nav-link" href="" target="_self">DAILY&nbsp;NUGGETS</a>
+</li>
+</ul>
+</li>
+<li role="menuitem" class="nav-item"><a class="nav-link" href="" target="_self">MEDIA</a>
+</li>
+<li role="menuitem" class="nav-item"><a class="nav-link" href="./Contact-Us.html" target="_self">CONTACT&nbsp;US</a>
+</li>
+<li role="menuitem" class="nav-item"><a class="nav-link" href="" target="_self">GIVING</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</body>
+</html>
